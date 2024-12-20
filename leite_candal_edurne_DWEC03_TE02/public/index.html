@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avada Kadabra</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container foto"> <img  class="img-inicio" src="img/avadaKadabra1.png" alt="introduccion"></div>
+    <div class="container intro">
+        <div>
+            <h1>Avada Kadabra</h1>
+        <h3 class="sesion">Inicia sesion</h3><br>
+        <form action="" method="get">
+            <label for="usuario">Usuario</label><br>
+            <input type="text" id="usuario"><br><br>
+            <label for="password">Contraseña</label><br>
+            <input type="password" id="password"><br><br><br>
+            <input class="boton" type="button" onclick="comprobarUsuario()" value="Iniciar sesion"><br>
+        </form>
+        </div><br>
+        <div id="mensajes"></div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

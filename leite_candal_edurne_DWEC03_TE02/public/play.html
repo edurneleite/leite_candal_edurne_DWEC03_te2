@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Cual es la palabra secreta?</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body-columna" onload="palabraRandom(), actualizarDibujo(0), iniciarTemporizador()">
+    <h1 style="display: block;"> ¿Cual es la palabra secreta?</h1><br><br>
+    <div class="body-fila">
+        <div class="container palabra"> 
+            <div id="palabraClave">
+                <p>PALABRA</p>
+                
+            </div>
+            <p>Arrastra la letra aqui</p>
+            <input class="boton-letra" draggable="true" type="button" value="A" id="letraA">
+            <input class="boton-letra" draggable="true" type="button" value="B" id="letraB">
+            <input class="boton-letra" draggable="true" type="button" value="C" id="letraC">
+            <input class="boton-letra" draggable="true" type="button" value="D" id="letraD">
+            <input class="boton-letra" draggable="true" type="button" value="E" id="letraE">
+            <input class="boton-letra" draggable="true" type="button" value="F" id="letraF">
+            <input class="boton-letra" draggable="true" type="button" value="G" id="letraG">
+            <input class="boton-letra" draggable="true" type="button" value="H" id="letraH">
+            <input class="boton-letra" draggable="true" type="button" value="I" id="letraI">
+            <input class="boton-letra" draggable="true" type="button" value="J" id="letraJ">
+            <input class="boton-letra" draggable="true" type="button" value="K" id="letraK">
+            <input class="boton-letra" draggable="true" type="button" value="L" id="letraL">
+            <input class="boton-letra" draggable="true" type="button" value="M" id="letraM">
+            <input class="boton-letra" draggable="true" type="button" value="N" id="letraN">
+            <input class="boton-letra" draggable="true" type="button" value="O" id="letraO">
+            <input class="boton-letra" draggable="true" type="button" value="P" id="letraP">
+            <input class="boton-letra" draggable="true" type="button" value="Q" id="letraQ">
+            <input class="boton-letra" draggable="true" type="button" value="R" id="letraR">
+            <input class="boton-letra" draggable="true" type="button" value="S" id="letraS">
+            <input class="boton-letra" draggable="true" type="button" value="T" id="letraT">
+            <input class="boton-letra" draggable="true" type="button" value="U" id="letraU">
+            <input class="boton-letra" draggable="true" type="button" value="V" id="letraV">
+            <input class="boton-letra" draggable="true" type="button" value="W" id="letraW">
+            <input class="boton-letra" draggable="true" type="button" value="X" id="letraX">
+            <input class="boton-letra" draggable="true" type="button" value="Y" id="letraY">
+            <input class="boton-letra" draggable="true" type="button" value="Z" id="letraZ">
+        </div>
+        <div class="container dibujo">
+            <div id="dibujo" style="font-size:50px; color:green; font-weight: 700;">
+                <p>dibujo</p>
+            </div>
+            <form class="form-palabra" action="" method="get">
+                <label for="palabra">¿Sabes la palabra secreta?</label><br><br>
+                <input class="texto-palabra" type="text" id="solucionPalabra"><br><br>
+                <input class="boton boton-palabra" id="alto" type="button" value="ADIVINAR" onclick=verificarPalabra()><br><br><br>
+            </form>
+            <div id="tempo"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

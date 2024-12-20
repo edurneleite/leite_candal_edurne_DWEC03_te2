@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+/*--------------------------------GENERAL-----------------------------*/
+* {
+font-family: 'Benne', sans-serif;
+}
+body, .body-fila{
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    background-color: #f5deb3;
+}
+h1, h2{
+    color: rgb(88, 4, 20);
+}
+p{
+    font-size: 16px;
+}
+
+.container{
+    width: 50%;
+    padding: 10ps;
+    margin: 10px;
+}
+/* ----------------------------------INICIO----------------------------------*/
+.img-inicio{
+    width: 100%;
+    border-radius: 50%;
+}
+.intro{
+    display: block; 
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding:2%;
+    padding-bottom: 50px;
+}
+.intro div{
+    justify-items: center;
+    max-width: 300px;
+    margin: auto;
+}
+input{
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+    padding: 5px;
+}
+.boton{
+    padding: 12px;
+    margin-left: 6px;
+    border-radius: 5%;
+    background-color: hsl(214, 97%, 23%);
+    color:white;
+}
+
+
+/*---------------------------------INSTRUCCIONES-----------------------------------*/
+.niveles{
+    display: block; 
+    justify-content: center;
+    background-color: beige;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto;
+}
+.niveles div{
+    justify-items: center;
+    max-width: 300px;
+    margin: auto;
+}
+.instrucciones{
+    text-align: center;
+    padding: 3%;
+}
+.input-nivel{
+    margin: 2%;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 200px;
+    height: 100px;
+    font-size: 17px;
+    background-color: hsl(214, 97%, 23%);
+    color:white;
+}
+
+/*------------------------------------JUEGO-------------------------------------*/
+.body-columna{
+    display: block;
+    text-align: center;
+}
+/*Palabra y teclacdo*/
+.palabra {
+    font-size: 40px;
+}
+.boton-letra{
+    margin:2%;
+    width: 50px;
+    height: 50px;
+    background-color: hsl(214, 97%, 23%);
+    color:white;
+    border-radius: 30%;
+
+}
+/*Dibujo y palabra adivinada*/
+.texto-palabra{
+    padding: 20px;
+    width: 200px;
+    border-radius: 10%;
+    border-color:hsl(214, 97%, 23%);
+    
+}
+.boton-palabra{
+    padding: 10px;
+    margin-top:20px;
+    width: 100px;
+}
+
+/*-----------------------------RESULTADO-----------------------------*/
+
+.jugarOtraVez{
+    padding: 10px;
+    border-radius: 5%;
+    background-color: hsl(214, 97%, 23%);
+    color:white;
+}
